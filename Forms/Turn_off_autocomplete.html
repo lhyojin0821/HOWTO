@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turn_off_autocomplete</title>
+
+</head>
+
+<body>
+    <h2>Autocomlete on/off</h2>
+
+    <form action="/action_page.php">
+        First name: <input type="text" name="fname" autocomplete="off">
+        <br>
+        Last name: <input type="text" name="lname" autofocus='on'>
+        <br><input type="submit">
+    </form>
+    <p>Fill in and submit the form, then reload the page to see how autocomplete works.</p>
+    <p>Notice that autocomplete is "on" for the last name field, but "off" for the first name field.</p>
+</body>
+
+</html>
